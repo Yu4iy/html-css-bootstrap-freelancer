@@ -7,7 +7,14 @@ ul,li{
 .bg-banner {
 	background-color: darkolivegreen;
 }
-
+.bg-darkb {
+	background-color: rgb(63, 197, 197);
+}
+.input-test {
+	height: 300px;
+	width: 100%;
+	background-color: darkseagreen;
+}
 .test{ 
 	background-color: blueviolet;
 }
