@@ -10,6 +10,9 @@ ul,li{
 .bg-darkb {
 	background-color: rgb(63, 197, 197);
 }
+.bg-fot { 
+	background-color: dimgray;
+}
 .input-test {
 	height: 300px;
 	width: 100%;
