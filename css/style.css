@@ -1,0 +1,43 @@
+ul,li{
+	list-style: none;
+}
+.nav__bg {
+	background-color: cadetblue;
+}
+.banner
+
+.test{ 
+	background-color: blueviolet;
+}
+.burger__wraper {
+	position: relative;
+}
+.burger {
+	width: 20px;
+	height: 3px;
+	background-color: rgb(95, 95, 95);
+	position: absolute;
+	right: 50%;
+	bottom: 50%;
+	transform: translatey(-50%);
+}
+.burger::after {
+	content: "";
+	width: 20px;
+	height: 3px;
+	background-color: rgb(95, 95, 95);
+	position: absolute;
+	right: 0;
+	bottom: 4px;
+	transform: translatey(-50%);
+}
+.burger::before {
+	content: "";
+	width: 20px;
+	height: 3px;
+	background-color: rgb(95, 95, 95);
+	position: absolute;
+	right: 0;
+	bottom: -4px;
+	transform: translatey(50%);
+}
