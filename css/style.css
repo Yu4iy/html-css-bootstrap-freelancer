@@ -18,9 +18,7 @@ ul,li{
 	width: 100%;
 	background-color: darkseagreen;
 }
-.test{ 
-	background-color: blueviolet;
-}
+
 .burger__wraper {
 	position: relative;
 	border: 1px solid rgb(255, 255, 255);
@@ -68,4 +66,18 @@ ul,li{
 	background-color: rgb(70, 14, 190);
 	max-width: 100%;
 
+}
+.banner-line {
+	border-bottom: 3px solid black;
+	position: relative;
+	
+}
+.fa-star {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: darkolivegreen;
+	width: 40px;
+	font-size: 20px;
 }
