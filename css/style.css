@@ -1,6 +1,40 @@
 ul,li{
 	list-style: none;
 }
+
+/* COLORS */
+.mm-bg-dark {
+	background-color: #2C3E50;
+}
+.mm-bg-light {
+	background-color: #1ABC9C;
+}
+
+.mm-img {
+	width: 25%;
+	min-width: 228px ;
+}
+.mm-img-portfolio {
+	width: 100%;
+	border-radius: 2%;
+	margin-top: 1rem;
+}
+section .row .mm-form {
+	border: none;
+	border-radius: 0;
+	border-bottom: 2px solid #CCCCCC;
+}
+
+
+
+
+
+
+
+
+
+
+
 .nav-bg {
 	background-color: cadetblue;
 }
@@ -19,41 +53,8 @@ ul,li{
 	background-color: darkseagreen;
 }
 
-.burger__wraper {
-	position: relative;
-	border: 1px solid rgb(255, 255, 255);
-	width: 30px;
-	height: 30px;
-}
-.burger {
-	width: 20px;
-	height: 3px;
-	background-color: rgb(95, 95, 95);
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-}
-.burger::after {
-	content: "";
-	width: 20px;
-	height: 3px;
-	background-color: rgb(95, 95, 95);
-	position: absolute;
-	right: 0;
-	bottom: 4px;
-	transform: translatey(-50%);
-}
-.burger::before {
-	content: "";
-	width: 20px;
-	height: 3px;
-	background-color: rgb(95, 95, 95);
-	position: absolute;
-	right: 0;
-	bottom: -4px;
-	transform: translatey(50%);
-}
+
+
 .img-test {
 	width: 285px;
 	height: 255px;
@@ -67,17 +68,46 @@ ul,li{
 	max-width: 100%;
 
 }
-.banner-line {
-	border-bottom: 3px solid black;
+.divider-line {
 	position: relative;
-	
 }
-.fa-star {
+
+.divider-line::after {
+	content: "";
+	width: 100px;
+	height: 3px;
+	background-color: rgb(255, 255, 255);
 	position: absolute;
 	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: darkolivegreen;
-	width: 40px;
-	font-size: 20px;
+	right: 54%;
+}
+.divider-line::before {
+	content: "";
+	width: 100px;
+	height: 3px;
+	background-color: rgb(255, 255, 255);
+	position: absolute;
+	top: 50%;
+	left: 54%;
+}
+.divider-line-black {
+	position: relative;
+}
+.divider-line-black::after {
+	content: "";
+	width: 100px;
+	height: 3px;
+	background-color: rgb(0, 0, 0);
+	position: absolute;
+	top: 50%;
+	right: 54%;
+}
+.divider-line-black::before {
+	content: "";
+	width: 100px;
+	height: 3px;
+	background-color: rgb(0, 0, 0);
+	position: absolute;
+	top: 50%;
+	left: 54%;
 }
