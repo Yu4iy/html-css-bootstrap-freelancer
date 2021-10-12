@@ -52,39 +52,13 @@ section .row .mm-form {
 
 
 
-.nav-bg {
-	background-color: cadetblue;
-}
-.bg-banner {
-	background-color: darkolivegreen;
-}
-.bg-darkb {
-	background-color: rgb(63, 197, 197);
-}
-.bg-fot { 
-	background-color: dimgray;
-}
+
 .input-test {
 	height: 300px;
 	width: 100%;
 	background-color: darkseagreen;
 }
 
-
-
-.img-test {
-	width: 285px;
-	height: 255px;
-	background-color: darkred;
-	max-width: 100%;
-}
-.img-test2 {
-	width: 380px;
-	height: 225px;
-	background-color: rgb(70, 14, 190);
-	max-width: 100%;
-
-}
 .divider-line {
 	position: relative;
 }
