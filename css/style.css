@@ -23,13 +23,14 @@ section .row .mm-form {
 	border: none;
 	border-radius: 0;
 	border-bottom: 2px solid #CCCCCC;
+	box-shadow: none;
 }
 
-
-
-
-
-
+.container .button-inner .mm-btn {
+	background-color: #1ABC9C;
+	color: #fff;
+	box-shadow: none;
+}
 
 
 
