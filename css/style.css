@@ -10,6 +10,22 @@ ul,li{
 	background-color: #1ABC9C;
 }
 
+.mm-bg-dark-blue {
+	background-color: #3A546D;
+}
+.mm-light {
+	color: #1ABC9C;
+}
+.mm-circle {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+}
+.mm-circle::before {
+	font-size: 14px;
+	line-height: 30px;
+}
 .mm-img {
 	width: 25%;
 	min-width: 228px ;
