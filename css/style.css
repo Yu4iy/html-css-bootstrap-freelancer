@@ -41,14 +41,22 @@ section .row .mm-form {
 	border-bottom: 2px solid #CCCCCC;
 	box-shadow: none;
 }
+.textarea [type="text"] {
+	height: 200px;
+}
 
 .container .button-inner .mm-btn {
 	background-color: #1ABC9C;
 	color: #fff;
 	box-shadow: none;
 }
-
-
+.mm-form-wraper textarea {
+	height: 190px;
+}
+/* .mm-form-wraper textarea,
+.mm-form-wraper input {
+	padding-left: 0;
+} */
 
 
 
@@ -59,13 +67,13 @@ section .row .mm-form {
 	background-color: darkseagreen;
 }
 
-.divider-line {
+/* .divider-line {
 	position: relative;
 }
 
 .divider-line::after {
 	content: "";
-	width: 100px;
+	width: 20%;
 	height: 3px;
 	background-color: rgb(255, 255, 255);
 	position: absolute;
@@ -74,7 +82,7 @@ section .row .mm-form {
 }
 .divider-line::before {
 	content: "";
-	width: 100px;
+	width: 20%;
 	height: 3px;
 	background-color: rgb(255, 255, 255);
 	position: absolute;
@@ -86,19 +94,51 @@ section .row .mm-form {
 }
 .divider-line-black::after {
 	content: "";
-	width: 100px;
+	width: 14%;
 	height: 3px;
 	background-color: rgb(0, 0, 0);
 	position: absolute;
 	top: 50%;
-	right: 54%;
+	right: 53%;
 }
 .divider-line-black::before {
 	content: "";
-	width: 100px;
+	width: 14%;
 	height: 3px;
 	background-color: rgb(0, 0, 0);
 	position: absolute;
 	top: 50%;
-	left: 54%;
+	left: 53%;
+} */
+.mm-banner-line-dark {
+	max-width: 240px;
+	height: 3px;
+	background-color: black;
+	position: relative;
+	
+}
+.mm-banner-line-light {
+	max-width: 240px;
+	height: 3px;
+	background-color: rgb(255, 255, 255);
+	position: relative;
+	
+}
+.mm-fa-star-light {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	width: 40px;
+	font-size: 20px;
+}
+.mm-fa-star-light-green {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #1ABC9C;
+	width: 40px;
+	font-size: 20px;
 }
